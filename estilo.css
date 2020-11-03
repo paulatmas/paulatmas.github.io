@@ -1,4 +1,16 @@
 h1{
     font-size: 30px;
+    font-family: sans-serif;
     color: burlywood;
+    margin-left: 90px;
+}
+
+a{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 90px;
+}
+
+a:hover{
+    color: lightcoral;
 }
