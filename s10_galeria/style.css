@@ -23,6 +23,11 @@ h1{
 img{
     width: 500px;
     height: auto;
+    filter: grayscale(70%);
+}
+
+img:hover{
+    filter: none;
 }
 
 #vector{
