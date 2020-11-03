@@ -1,0 +1,32 @@
+body{
+    background-color: beige;
+}
+
+#arriba{
+    width: 80px;
+    filter: grayscale(100%);
+}
+
+#arriba:hover{
+    filter: none;
+    
+}
+
+h1{
+    text-align: justify;
+    font-size: 60px;
+    margin-left: 200px;
+    font-family: FuturaBlack BT;
+    padding: 50px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+#vector{
+    padding: 5px; /* Some padding */
+    width: 150px;
+    
+}
