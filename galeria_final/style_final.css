@@ -1,0 +1,48 @@
+#arriba{
+    width: 80px;
+    filter: grayscale(100%);
+}
+
+#arriba:hover{
+    filter: none;
+    
+}
+
+h1{
+    text-align: justify;
+    font-size: 60px;
+    margin-left: 400px;
+    font-family: Helvetica Inserat LT Std;
+    color: burlywood;
+    padding: 50px;
+}
+
+.cuerpo{
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 3px;   
+}
+
+img{
+    width: 425px;
+    filter: grayscale(70%);
+}
+
+#imagen4{
+    
+}
+
+img:hover{
+    filter: none;
+    transition:all .5s ease-in-out;
+}
+
+#vector{
+    padding-top: 50px;
+    width: 150px;
+    
+}
