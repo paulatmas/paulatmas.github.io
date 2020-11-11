@@ -22,8 +22,9 @@ h1{
     display: flex; 
     align-content: flex-start;
     align-content: center;
-    flex-wrap: wrap;
+    margin: 10px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 div{
@@ -56,13 +57,15 @@ img:hover{
 .abajo p{
     font-family: sans-serif;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 .abajo:hover{
-    animation: 
+    overflow: visible
+    
 }
