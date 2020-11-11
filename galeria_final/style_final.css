@@ -1,10 +1,17 @@
-#arriba{
+.arriba{
     width: 80px;
-    filter: grayscale(100%);
+    margin: 30px;
 }
 
-#arriba:hover{
+#cerradura{
+    width: 80px;
+    filter: grayscale(100%);
+    margin: 30px;
+}
+
+#cerradura:hover{
     filter: none;
+    transition:all .5s ease-in-out;
     
 }
 
@@ -22,10 +29,11 @@ h1{
     display: flex; 
     align-content: flex-start;
     align-content: center;
-    margin: 10px;
+    align-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
 }
+
 
 div{
     width: 90%;
@@ -34,6 +42,9 @@ div{
 
 img{
     filter: grayscale(70%);
+    display:block;
+          
+    }
 }
 
 img:hover{
@@ -41,20 +52,30 @@ img:hover{
     transition:all .5s ease-in-out;
 }
 
+.texto{
+    transform: translate(0px, 0px)
+}
+
 #vector{
     width: 150px;
     height: 150px;
     position: absolute;
+    opacity: 0.3
+}
+
+#vector:hover{
+    opacity: 1;
+    transition:all .5s ease-in-out;
 }
 
 .abajo{
     width: 150px;
     height: 150px;
     position: relative;
-    padding-top: 50px;
+    background-size: 150px;
 }
 
-.abajo p{
+.abajo texto{
     font-family: sans-serif;
     font-weight: 800;
     font-size: 15px;
@@ -62,10 +83,9 @@ img:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
 }
 
 .abajo:hover{
-    overflow: visible
+
     
 }
