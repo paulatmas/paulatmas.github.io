@@ -1,6 +1,7 @@
 .arriba{
     width: 80px;
     height: auto;
+    padding-left: 600px;
 }
 
 #cerradura{
@@ -82,7 +83,6 @@ img:hover{
     height: 150px;
     padding: 9px;
     opacity: 0.5;
-    filter: saturate(1);
     margin-left: 600px;
     margin-top: 90px;
 }
@@ -91,4 +91,5 @@ img:hover{
     opacity: 1;
     transition:all .5s ease-in-out;
     transform: rotate(360deg);
+    filter: saturate(5);
 }
