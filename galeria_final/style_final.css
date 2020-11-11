@@ -25,13 +25,15 @@ h1{
     padding-bottom: 30px;
 }
 
-.section{
+section{
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     overflow: auto;
     align-content: center;
 }
+
+
 
 
 div{
