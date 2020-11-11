@@ -10,30 +10,29 @@
 
 h1{
     text-align: justify;
-    font-size: 60px;
-    margin-left: 400px;
-    font-family: Helvetica Inserat LT Std;
-    color: burlywood;
-    padding: 50px;
+    font-size: 50px;
+    margin-left: 200px;
+    font-family: Microbrew Soft One;
+    color: #A68865;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
-.cuerpo{
+#section{
+    display: flex; 
+    align-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 div{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     width: 90%;
     margin: 3px;   
 }
 
 img{
-    width: 425px;
     filter: grayscale(70%);
-}
-
-#imagen4{
-    
 }
 
 img:hover{
@@ -42,7 +41,28 @@ img:hover{
 }
 
 #vector{
-    padding-top: 50px;
     width: 150px;
-    
+    height: 150px;
+    position: absolute;
+}
+
+.abajo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.abajo p{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.abajo:hover{
+    animation: 
 }
