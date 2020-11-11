@@ -27,7 +27,7 @@ h1{
 
 section{
     display: flex; 
-    width: 100%;
+    width: 92%;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
@@ -40,12 +40,12 @@ div{
     margin: 30px; 
 }
 
-.cuerpo .texto{
-    position: relative;
+img{
+
 }
 
-.cuerpo {
-    position: 
+.texto{
+
 }
 
 img{
@@ -63,25 +63,18 @@ img:hover{
     transform: translate(0px, 0px)
 }
 
-#vector{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    opacity: 0.3
-}
-
-#vector:hover{
-    opacity: 1;
-    transition:all .5s ease-in-out;
-}
-
 .abajo{
     width: 150px;
     height: 150px;
-    padding: 50px;
+    padding: 9px;
+    opacity: 0.5;
+    filter: saturate(1);
+    margin-left: 600px;
+    margin-top: 90px;
 }
 
 .abajo:hover{
-
-    
+    opacity: 1;
+    transition:all .5s ease-in-out;
+    transform: rotate(360deg);
 }
