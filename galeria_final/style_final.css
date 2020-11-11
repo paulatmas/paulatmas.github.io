@@ -1,6 +1,6 @@
 .arriba{
     width: 80px;
-    margin: 30px;
+    height: auto;
 }
 
 #cerradura{
@@ -27,19 +27,25 @@ h1{
 
 section{
     display: flex; 
-    width: 85%;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 10px;
-    overflow: auto;
+    align-items: center;
 }
     
 div{
-    width: 400px;
+    width: 300px;
     height: auto;
-    margin: 40px;
+    margin: 30px; 
+}
+
+.cuerpo .texto{
+    position: relative;
+}
+
+.cuerpo {
+    position: 
 }
 
 img{
@@ -72,18 +78,7 @@ img:hover{
 .abajo{
     width: 150px;
     height: 150px;
-    position: relative;
-    background-size: 150px;
-}
-
-.abajo texto{
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 50px;
 }
 
 .abajo:hover{
