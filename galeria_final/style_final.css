@@ -34,33 +34,47 @@ section{
     align-items: center;
 }
     
-div{
+section .cuerpo{
+    position: relative;
     width: 300px;
     height: auto;
-    margin: 30px; 
-}
-
-img{
-
+    margin: 20px; 
 }
 
 .texto{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 134%;
+    height: 0%;
+    transition: 1s;
+    overflow: hidden;
+}
 
+.texto h2{
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica Neue LT Com;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+}
+
+.cuerpo:hover .texto{
+    height: 50%;
+    cursor: pointer;
 }
 
 img{
-    filter: grayscale(70%);
+    filter: grayscale(20%);
     display:block;
-    transition: 
 }
 
 img:hover{
-    filter: none;
-    transition:all .5s ease-in-out;
-}
-
-.texto{
-    transform: translate(0px, 0px)
+    transition: all .5s ease-in-out;
+    filter: grayscale(70%)
 }
 
 .abajo{
