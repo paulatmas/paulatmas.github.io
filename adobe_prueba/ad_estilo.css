@@ -83,8 +83,8 @@ p{
     height: auto;
 }
 
-#leyenda paleta{
-    width: 50px;
+.paleta{
+    width: 100px;
 }
 
 .navInferior{
