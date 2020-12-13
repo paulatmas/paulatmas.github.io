@@ -4,97 +4,64 @@
   <title>Ejemplo Boostrap</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-    <style type="text/css">
-        div {
-            box-sizing: border-box; 
-            }
-        nav {
-            background-color: aqua;
-            }
-        #galeria {
-            background-color: bisque;
-            display: flex; /* al ser col Boostrap ya le pone Flex */
-            flex-direction: column;
-            flex-wrap: wrap;
-            height: 80vh;
-            overflow: auto;
-            }        
-        #galeria div {
-            background-color: darkgray;
-            width: 100%; /* se aplica desde min-width 0 hasta 768px */
-            }        
-        @media (min-width: 768px) {
-            #galeria div{
-                width: 50%;  /* se aplica desde min-width desde 768px */
-            }
-        }        
-        #img1 {
-            height: 300px;            
-        }
-        #img2 {
-            height: 100px;            
-        }
-        #img3 {
-            height: 200px;            
-        }        
-        #img4 {
-            height: 150px;
-        }        
-        #img5 {
-            height: 350px;            
-        }        
-        #img6 {
-            height: 100px;            
-        }        
-        footer {
-            height: 20vh; /* 20% altura pantalla */
-        }
-        footer div {
-            background-color: chartreuse;
-        }
-    </style>
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="col-12 col-md-4">
-                MENU
-            </nav>
-            <section id="galeria" class="col-12 col-md-8">
-                <div id="img1">
-                    Imagen 1 
+ <header>
+     <nav class="navbar navbar-static-top" role="navigation">
+         <div class="contenedor">
+             <div class="navbar-header">
+                 <button type="button" class="btn btn-dark navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+                 <span class="sr-only">Mostrar/Ocultar</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 </button>
+                 <a href="#" class="navbar-brand" style="color: burlywood">Menú</a>
+                <div class="collapse navbar-collapse" id="navegacion">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li class="active"><a href="#">Redes</a></li>
+                        <li class="active"><a href="#">About</a></li>
+                    </ul>
                 </div>
-                <div id="img2">
-                    Imagen 2
-                </div>
-                <div id="img3">
-                    Imagen 3 
-                </div>
-                <div id="img4">
-                    Imagen 4 
-                </div>
-                <div id="img5">
-                    Imagen 5 
-                </div>
-                <div id="img6">
-                    Imagen 6 
-                </div>
-            </section>
-        </div>
-        
-        <footer class="row">
-            <div class="col-4">
-                A
-            </div>
-            <div class="col-4">
-                B
-            </div>
-            <div class="col-4">
-                C
-            </div>
-        </footer>
+             </div>
+         </div>
+     </nav>
+ </header>
+   <div style="background:burlywood !important" class="jumbotron text-center">
+  <h1>Lorem ipsum</h1>
     </div>
+
+<div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <h3>Redes sociales</h3>
+      <p class="parrafo">Lorem ipsum</p>
+      <p class="parrafo">Lorem ipsum</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Información</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>About</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+</div>
+</div>
+  <br>
+   <footer class="page-footer font-small blue pt-4">
+       <div class="container text-center">
+        <h4>I L L U S T R A T I O N - D E S I G N</h4>
+        </div>
+    </footer>
 </body>
 </html>
 
