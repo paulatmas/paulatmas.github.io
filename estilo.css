@@ -1,3 +1,12 @@
+div{
+    margin-top: 3%;
+    }
+
+hr{
+    width: 90%;
+    align-items: flex-start;
+    }
+
 h1{
     font-size: 30px;
     font-family: sans-serif;
@@ -14,4 +23,11 @@ a{
 
 a:hover{
     color: lightcoral;
+    }
+
+p{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 90px;
+    text-decoration: none;
     }
