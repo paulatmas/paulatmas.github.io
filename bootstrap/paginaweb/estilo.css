@@ -23,3 +23,10 @@
 	transform: translateX(0);
 	transform: translate3d(0, 0, 0);
     }
+
+@font-face .propia{
+    font-family: "Paulabeis Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url()
+    }
