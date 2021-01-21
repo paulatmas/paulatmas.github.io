@@ -96,7 +96,8 @@
             <div id="infobox3">
             <p>Utilizamos cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
             <a href="politica-privacidad.php">Más info</a>
-            <a onclick="aceptar_cookies();" style="cursor:pointer;">Cerrar</a></p>
+            <button onclick="aceptar_cookies();" >Cerrar</button>
+            </p>
             </div>
         </div>
         
@@ -106,6 +107,14 @@
             <a target="_blank" href="img_final/1076233.svg">
                 <img src="img_final/miniatura_vector.jpg" alt="vector" title="Van Gogh"></a>
         </div>
-       
+        
+       <script>
+         $(document).ready(function() {
+            $("button").click(function() {
+                $("#overbox3").hide();
+            });
+        });
+        </script>
+        
    </body>
 </html>
