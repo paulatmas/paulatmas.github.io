@@ -3,6 +3,12 @@
     height: 70%;   
     }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+    }
+
 .carousel-fade .carousel-item{
 	opacity: 0;
 	transition-duration: .6s;

@@ -9,6 +9,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--Scroll Reveal-->
+  <script src="https://unpkg.com/scrollreveal">
+      ScrollReveal().reveal('#presentacion');
+      ScrollReveal().reveal('.container');
+
+    </script>
+  <!--Fin scroll reveal-->
+  <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
+  <link rel="stylesheet" href="cookiealert.css" />
 </head>
 <body>
     <header>
@@ -131,5 +140,20 @@
         </div>
         <hr class="featurette-divider">
       </div>
+   <!--Alerta cookies-->   
+<div class="alert alert-dismissible text-center cookiealert" role="alert">
+  <div class="cookiealert-container">
+    <b>¿Te gustan las cookies?</b> &#x1F36A; Utilizamos cookies para asegurarte la mejor experiencia en nuestra web
+    <a href="http://cookiesandyou.com/" target="_blank">Más info</a>
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close" onclick="aceptar_cookies();">Aceptar
+    </button>
+  </div>
+</div>  
+<!-- From Local -->
+<script src="cookiealert.js"></script>
+<!-- From CDN -->
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+      
+      
 </body>
 </html>
