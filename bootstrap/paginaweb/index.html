@@ -11,6 +11,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!--Scroll Reveal-->
   <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+		ScrollReveal({ duration: 1000 })
+	</script>
   <!--Fin scroll reveal-->
   <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
   <link rel="stylesheet" href="cookiealert.css" />
@@ -59,9 +62,9 @@
             <img class="first-slide img-fluid" src="img/glyde1.JPG">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Glyde</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver proyecto</a></p>
+                <h1 style="font-size: 3vw;">Glyde</h1>
+                <p style="font-size: 2vw;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a style="font-size: 2vw;" class="btn btn-lg btn-primary" href="#" role="button">Ver proyecto</a></p>
               </div>
             </div>
           </div>
@@ -69,8 +72,8 @@
             <img class="second-slide img-fluid" src="img/glyde2.JPG" alt="Second slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>100% natural</h1>
-                <p>Cras justo odio, dapibus.</p>
+                <h1 style="font-size: 3vw;">100% natural</h1>
+                <p style="font-size: 2vw;">Cras justo odio, dapibus.</p>
               </div>
             </div>
           </div>
@@ -78,8 +81,8 @@
             <img class="third-slide img-fluid" src="img/glyde3.JPG">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>Edición limitada</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1 style="font-size: 3vw;">Edición limitada</h1>
+                <p style="font-size: 2vw;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
               </div>
             </div>
           </div>
@@ -150,9 +153,9 @@
 <!-- From CDN -->
 <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>  
 <script>
-ScrollReveal().reveal('.bio');  
-ScrollReveal().reveal('.imagenes1');
-ScrollReveal().reveal('.imagenes2');
+ScrollReveal().reveal('.bio', { delay: 500 });  
+ScrollReveal().reveal('.imagenes1', { delay: 500 });
+ScrollReveal().reveal('.imagenes2', { delay: 500 });
 </script>
 </body>
 </html>
