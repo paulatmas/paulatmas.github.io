@@ -17,6 +17,14 @@
   <!--Fin scroll reveal-->
   <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
   <link rel="stylesheet" href="cookiealert.css" />
+  <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#cookies").hide();
+            });
+        });
+
+    </script>
 </head>
 <body>
     <header>
@@ -34,7 +42,13 @@
               <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">LINKS</a>
+              <a class="nav-link" href="#">RRSS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="about.html">ARTE</a>
+            </li>
+            <li>
+                <a class="nav-link" href="about.html">PROYECTOS</a>
             </li>
             <li>
                 <a class="nav-link" href="about.html">ABOUT</a>
@@ -140,11 +154,11 @@
         <hr class="featurette-divider">
       </div>
    <!--Alerta cookies-->   
-<div class="alert alert-dismissible text-center cookiealert" role="alert">
+<div id="cookies" class="alert alert-dismissible text-center cookiealert" role="alert">
   <div class="cookiealert-container">
     <b>¿Te gustan las cookies?</b> &#x1F36A; Utilizamos cookies para asegurarte la mejor experiencia en nuestra web
     <a href="http://cookiesandyou.com/" target="_blank">Más info</a>
-    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close" onclick="aceptar_cookies();">Aceptar
+    <button type="button" class="btn btn-primary btn-sm acceptcookies">Aceptar
     </button>
   </div>
 </div>  
@@ -152,6 +166,7 @@
 <script src="cookiealert.js"></script>
 <!-- From CDN -->
 <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>  
+<!-- Animaciones scroll -->
 <script>
 ScrollReveal().reveal('.bio', { delay: 500 });  
 ScrollReveal().reveal('.imagenes1', { delay: 500 });
