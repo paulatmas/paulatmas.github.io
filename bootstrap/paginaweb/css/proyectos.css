@@ -1,8 +1,21 @@
 .fotos img{
     width: auto;
     height: auto;
-}
+    filter: blur(3px);
+    }
 
-.aneto img{
-    width: 100%;
-}
+.fotos img:hover{
+    filter: none;
+    transition: ease-in-out .2s;
+    }
+
+.principal1:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+    filter: none;
+    }
+
+.principal2:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+    }
