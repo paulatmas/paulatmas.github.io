@@ -9,7 +9,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+  <!-- Animación proceso -->
+  <script> 
+      $(document).ready(function(){
+  $("img").hover(cambiar, restaurar);
+});
+function cambiar(e){
+  $(this).attr("src", $(this).attr("src").replace(".jpg", "1.gif") );
+} 
+function restaurar(e){
+  $(this).attr("src", $(this).attr("src").replace("1.gif", ".jpg") );
+}
+ </script>
+  <!-- Fin animación -->
   <!--Scroll Reveal-->
   <script src="https://unpkg.com/scrollreveal"></script>
   <script>
