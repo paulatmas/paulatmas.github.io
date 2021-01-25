@@ -16,15 +16,6 @@
 	</script>
   <!--Fin scroll reveal-->
   <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
-  <link rel="stylesheet" href="cookiealert.css" />
-  <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $("#cookies").hide();
-            });
-        });
-
-    </script>
 </head>
 <body>
     <header>
@@ -62,7 +53,7 @@
     <br>
     <br>
        <div class="container">
-        <div class="imagenes1 row featurette">
+        <div class="glyde row featurette">
           <div class="col-md-6 order-md-2">
            <br>
            <br>
@@ -88,15 +79,14 @@
                    <img class="mt-4 img-fluid" src="img/PROY_glyde6.JPG">
                </div>
            </div>
-        
+        </div>
+        <div class="container">
         <br>
         <hr class="featurette-divider">
         <br>
         <br>
-        <div class="imagenes2 row featurette">
+        <div class="aneto row featurette">
           <div class="col-md-6 order-md-2">
-           <br>
-           <br>
            <br>
            <br>
            <br>
@@ -104,24 +94,27 @@
             <p class="lead">Todos sabemos qué tan criticado es Aneto por su diseño infantil y sobrecargado, más aún por la utilización de la famosa <i>comic sans</i>, así que ¿quizá un lavado de cara para ellos también? ¡Por supuesto!
             <br>Mi propuesta intenta mantener su esencia cercana y familiar mientras que le otorga ese toque profesional y de calidad que les falta, ¿qué te parece la idea?<br>En este caso he modificado dos de sus opciones de caldo más conocidas: pollo y pescado.</p>
           </div>
-          
           <div class="col-md-6 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="img/PROY_aneto1.JPG" data-holder-rendered="true">
           </div>
-             <hr class="featurette-divider">
-              <div class="aneto row order-md-3">
+            <div class="aneto row order-md-3">
                 <div class="col-md-4">
-                    <img class="mt-4 img-fluid" src="img/PROY_aneto2.JPG">
+                    <img class="mt-4 mb-4 img-fluid" src="img/PROY_aneto2.JPG">
                 </div>
                 <div class="col-md-4">
                     
-                    <img class="mt-4 img-fluid" src="img/PROY_aneto3.JPG">
+                    <img class="mt-4 mb-4 img-fluid" src="img/PROY_aneto3.JPG">
                 </div>
                 <div class="col-md-4">
-                    <img class="mt-4 img-fluid" src="img/PROY_aneto4.JPG">
+                    <img class="mt-4 mb-4 img-fluid" src="img/PROY_aneto4.JPG">
                 </div>
-              </div> 
+            </div> 
         </div>
     </div>
-    </body>
+<script>
+ScrollReveal().reveal('.glyde', { delay: 500 });  
+ScrollReveal().reveal('.fotos', { delay: 500 });
+ScrollReveal().reveal('.aneto', { delay: 500 });
+</script>
+</body>
 </html>
