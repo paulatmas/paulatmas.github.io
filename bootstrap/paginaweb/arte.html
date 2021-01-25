@@ -4,11 +4,24 @@
   <title>Página final</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="css/arte.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Animación proceso -->
+  <script> 
+      $(document).ready(function(){
+  $("img").hover(cambiar, restaurar);
+});
+function cambiar(e){
+  $(this).attr("src", $(this).attr("src").replace(".jpg", "1.gif") );
+} 
+function restaurar(e){
+  $(this).attr("src", $(this).attr("src").replace("1.gif", ".jpg") );
+}
+ </script>
+  <!-- Fin animación -->
 </head>
 <body>
     <header>
@@ -47,16 +60,25 @@
     </header>
     <div class="container">
         <div class="col-md-6">
-        <p class="lead"><br>Si deseas ver el proceso, haz click en la ilustración</p>
+        <p class="lead"><br>Si deseas ver el proceso, pon el ratón sobre la ilustración</p>
         </div>
-    <div class="container fluid">
-        <div class="row">
-            <div class="column">
-            <img class="w-10" src="img/Firma.JPG">
-            <img class="w-10" src="img/IMG-0780.jpg">
+        <div class="container fluid">
+            <div class="row">
+                <div class="column">
+                <img class="img-fluid" src="img/Firma.jpg">
+                <img class="img-fluid"
+                src="img/girl.jpg">
+                <img class="img-fluid" src="img/halloween.jpg">
+                </div>
+                <div class="column">
+                <img class="img-fluid" src="img/body.jpg">
+                <img class="img-fluid" src="img/beauty.jpg">
+                <img class="img-fluid" src="img/j_rabbit.jpg">
+                </div>
+                <br>
+                <br>
             </div>
         </div>
-    </div>
     </div>
 
 </body>
