@@ -22,6 +22,12 @@ function restaurar(e){
 }
  </script>
   <!-- Fin animación -->
+  <!--Scroll Reveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+		ScrollReveal({ duration: 1000 })
+	</script>
+  <!--Fin scroll reveal-->
 </head>
 <body>
     <header>
@@ -47,9 +53,6 @@ function restaurar(e){
             <li>
                 <a class="nav-link" href="about.html">ABOUT</a>
             </li>
-            <li>
-                <a class="nav-link" href="social.html">RRSS</a>
-            </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="¿Qué quieres ver?" aria-label="Buscar">
@@ -58,11 +61,11 @@ function restaurar(e){
         </div>
       </nav>
     </header>
-    <div class="container">
+    <div class="cont1 container">
         <div class="col-md-6">
         <p class="lead"><br>Si deseas ver el proceso, pon el ratón sobre la ilustración</p>
         </div>
-        <div class="container">
+        <div class="cont2 container">
             <div class="row">
                 <div class="col-md-4">
                     <img class="mt-4 img-fluid" src="img/Firma.jpg">
@@ -80,6 +83,9 @@ function restaurar(e){
             </div>
         </div>
     </div>
-
+<script>
+ScrollReveal().reveal('.cont1', { delay: 500 });  
+ScrollReveal().reveal('.cont2', { delay: 500 });
+</script>
 </body>
 </html>
