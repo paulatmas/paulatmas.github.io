@@ -29,7 +29,7 @@
 /*===========================
      01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=BaksoSapi:400,700|CaviarDreams:300,400,700&display=swap");
 body {
   font-family: "Caviar dreams", sans-serif;
   font-weight: normal;
@@ -1342,7 +1342,7 @@ p {
     display: inline-block;
     margin-right: 30px; }
     .footer-about .social li a {
-      font-size: 22px;
+      font-size: 40px;
       color: #d8a446;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -1350,7 +1350,7 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-about .social li a:hover {
-        color: #FE8464; }
+        color: #d8a446; }
 
 .footer-title .title {
   font-size: 24px;
@@ -1376,7 +1376,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .link-wrapper .link li a:hover {
-          color: #FE8464; }
+          color: #d8a446; }
 
 .footer-contact .contact {
   padding-top: 20px; }
@@ -1409,7 +1409,7 @@ p {
 /*===== BACK TO TOP =====*/
 .back-to-top {
   font-size: 20px;
-  color: #d8a446;
+  color: #f2c26b;
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -1429,4 +1429,4 @@ p {
   transition: all 0.3s ease-out 0s;
   display: none; }
   .back-to-top:hover {
-    color: #d8a446; }
+    color: #fff; }
